@@ -46,7 +46,11 @@ Opened Metasploit to listen in on the port configured in the malware.
 Changed the generic settings of the payload to match the malware configured with msfvenom in the earlier steps.
 
 ![image](https://github.com/user-attachments/assets/e579efef-7839-4847-ad7e-d3ce482b756c)
-![image](https://github.com/user-attachments/assets/e445a3f7-af46-48e0-bb1a-525b7f7962c7)
+
+New payload settings.
+
+![image](https://github.com/user-attachments/assets/8ce349f0-d748-4228-96a8-66a0350f9ea9)
+
 
 
 
