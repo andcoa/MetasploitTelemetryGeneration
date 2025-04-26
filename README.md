@@ -55,6 +55,10 @@ Changed lhost to match the IP of the attacking machine (Kali VM).
 
 ![image](https://github.com/user-attachments/assets/97a28ed3-a82e-4c5d-846f-d953638ced08)
 
+Started the handler to listen in and wait for the Windows VM to execute the payload.
+
+![image](https://github.com/user-attachments/assets/f7a72ddc-612c-42b3-ade9-aac430ad6c35)
+
 Set up a HTTP server on the attacking Kali VM using Python so the target Windows VM can download the malware.
 
 ![image](https://github.com/user-attachments/assets/767f7a83-2d81-42b1-ae30-4ad334ea5e98)
@@ -68,6 +72,9 @@ Downloaded the file on the Windows VM through by inputting the IP of the Kali VM
 ![image](https://github.com/user-attachments/assets/3063b5d3-3385-4ea6-8316-30c7f48ee60f)
 ![image](https://github.com/user-attachments/assets/e332311d-fab2-46a0-8c03-16f98029269a)
 
+Succesfully established a connection with the Kali VM. This information can be seen in Command Prompt by running the command "netstat -anob".
+
+![image](https://github.com/user-attachments/assets/6083f40e-9891-4af0-a35e-1319b17b2cf7)
 
 
 
