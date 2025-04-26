@@ -66,6 +66,8 @@ Disabled Windows Defender.
 Downloaded the file on the Windows VM through by inputting the IP of the Kali VM in Google Chrome.
 
 ![image](https://github.com/user-attachments/assets/3063b5d3-3385-4ea6-8316-30c7f48ee60f)
+![image](https://github.com/user-attachments/assets/e332311d-fab2-46a0-8c03-16f98029269a)
+
 
 
 
