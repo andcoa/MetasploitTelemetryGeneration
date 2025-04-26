@@ -19,3 +19,14 @@ To simulate a reverse shell attack using msfvenom and Metasploit from Kali Linux
 - Sysmon: To capture detailed security-relevant events.
 - Splunk: To aggregate, index, and search telemetry data.
 - Kali Linux: Host for launching payloads and attacks.
+
+## Steps
+
+Enabled Remote Desktop Protoecol (RDP) on the Windows VM.
+
+![image](https://github.com/user-attachments/assets/97fb841c-4e35-4c95-ae7c-abdb1699edd7)
+
+Executed the following Nmap command in Kali to aggressively scan (nmap -A) the Windows VM without first checking if the host responds to the ping (-Pn). The scan reports that port 3389 (RDP) is open on the Windows VM.
+
+![image](https://github.com/user-attachments/assets/42a65f0e-5b7d-4481-8bb0-25367ddbc761)
+
