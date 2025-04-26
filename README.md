@@ -37,7 +37,7 @@ Used the following command to see available Metasploit exploits that can be used
 
 Ran the following command to generate malware using Meterpeter's reverse TCP payload which is instructed to connect back to the host Kali VM using "lhost" and "lport". The payload is then delivered in the .exe format under a file named Resume.pdf.exe.
 
-![image](https://github.com/user-attachments/assets/2323e4a7-f071-43f1-bde4-9301a840ffe5)
+![image](https://github.com/user-attachments/assets/8263f92b-0083-439c-8d69-c77b1b43571f)
 
 Opened Metasploit to listen in on the port configured in the malware.
 
