@@ -53,7 +53,21 @@ New payload settings.
 
 Changed lhost to match the IP of the attacking machine (Kali VM).
 
-![image](https://github.com/user-attachments/assets/3cca790e-e86a-44bc-9468-88f1eff6651c)
+![image](https://github.com/user-attachments/assets/97a28ed3-a82e-4c5d-846f-d953638ced08)
+
+Set up a HTTP server on the attacking Kali VM using Python so the target Windows VM can download the malware.
+
+![image](https://github.com/user-attachments/assets/767f7a83-2d81-42b1-ae30-4ad334ea5e98)
+
+Disabled Windows Defender.
+
+![image](https://github.com/user-attachments/assets/b74b93a6-d7a2-490e-9092-b8b76240ae06)
+
+Downloaded the file on the Windows VM through by inputting the IP of the Kali VM in Google Chrome.
+
+![image](https://github.com/user-attachments/assets/3063b5d3-3385-4ea6-8316-30c7f48ee60f)
+
+
 
 
 
