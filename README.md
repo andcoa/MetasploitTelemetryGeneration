@@ -87,7 +87,7 @@ Ran the commands net user, net localgroup and ipconfig to retrieve information a
 
 ![image](https://github.com/user-attachments/assets/388b71ab-a869-4d21-8b6a-d3828549faa8)
 
-
+Configured Splunk to ingest Sysmon logs by copying the input file from the "default" directory in Splunk to the "local" directory" and editing it with the Sysmon information.
 
 
 
