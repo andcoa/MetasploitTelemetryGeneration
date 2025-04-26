@@ -30,3 +30,10 @@ Executed the following Nmap command in Kali to aggressively scan (nmap -A) the W
 
 ![image](https://github.com/user-attachments/assets/42a65f0e-5b7d-4481-8bb0-25367ddbc761)
 
+Used the following command to see available Metasploit exploits that can be used against the Windows VM.
+
+![image](https://github.com/user-attachments/assets/be62d66f-eb83-4b86-9826-8fa39c0a978e)
+![image](https://github.com/user-attachments/assets/b87de91b-2634-4727-bd32-3c9c6f2c80cb)
+
+
+
