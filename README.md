@@ -78,11 +78,14 @@ Successfully established a connection with the Kali VM. This information can be 
 
 ![image](https://github.com/user-attachments/assets/db18c7ab-e43d-4754-9a0c-b4fa9db725ee)
 
-The handler in the Kali VM confirms the connection was successful and established a shell on the Windows VM.
+The handler in the Kali VM confirms the connection was successful and then established a shell on the Windows VM.
 
 ![image](https://github.com/user-attachments/assets/3320dd0d-4bcb-4a1b-a37c-26ad12f469fd)
 ![image](https://github.com/user-attachments/assets/254df570-b14a-44c9-bef3-a1fbeb4f5ae5)
 
+Ran the commands net user, net localgroup and ipconfig to retrieve information about the target Windows VM.
+
+![image](https://github.com/user-attachments/assets/388b71ab-a869-4d21-8b6a-d3828549faa8)
 
 
 
