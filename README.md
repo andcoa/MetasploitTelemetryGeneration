@@ -51,6 +51,12 @@ New payload settings.
 
 ![image](https://github.com/user-attachments/assets/8ce349f0-d748-4228-96a8-66a0350f9ea9)
 
+Changed lhost to match the IP of the attacking machine (Kali VM).
+
+![image](https://github.com/user-attachments/assets/3cca790e-e86a-44bc-9468-88f1eff6651c)
+
+
+
 
 
 
