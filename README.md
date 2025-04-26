@@ -6,15 +6,16 @@ To simulate a reverse shell attack using msfvenom and Metasploit from Kali Linux
 
 ## Skills Learned
 
-- Network & Infrastructure Design: Created logical network diagrams (using draw.io) to map servers, clients, switches, routers, and cloud components, and defined IP addressing schemes for Splunk, AD, and attacker machines.
-- Lab Deployment Planning: Determined hardware requirements (RAM, disk space) and selected virtualization platforms (VirtualBox vs. cloud providers) based on host OS compatibility.
-- VM Configuration: Set up Windows 10 target and Kali Linux attacker VMs, and planned server roles for Splunk and Active Directory Domain Controller.
-- Log Forwarding & Telemetry: Designed log forwarding architecture using Splunk Universal Forwarder and Sysmon across domain controller and endpoints, with dotted‑line flows to central Splunk server.
-- Attack Simulation Preparation: Integrated Atomic Red Team tooling for future red‑team exercises and outlined pathways for extending the lab with IDS/EDR and firewall components.
+- Payload Creation with msfvenom: Generated custom Windows executables to simulate real-world malware attacks.
+- Attack Execution: Conducted controlled payload execution between Kali Linux and Windows VMs.
+- Sysmon Event Logging: Captured detailed process creation, network connections, and file events on Windows.
+- Splunk Data Analysis: Indexed and visualized malicious activity using Splunk queries and dashboards.
+- Threat Behavior Understanding: Analyzed attacker techniques, payload behaviors, and detection signatures.
 
 ## Tools Used
 
-- draw.io – For rapid creation of network and lab architecture diagrams.
-- VirtualBox – To host Ubuntu/Windows/Kali Linux virtual machines.
-- Splunk Universal Forwarder & Sysmon – Configured on Windows servers and workstations to collect and forward telemetry logs.
-- Atomic Red Team – Deployed on the target VM to generate simulated attack behaviors.
+- Metasploit Framework (msfvenom): For creating and delivering payloads.
+- Windows 10/11 VM: Target endpoint for attack execution.
+- Sysmon: To capture detailed security-relevant events.
+- Splunk: To aggregate, index, and search telemetry data.
+- Kali Linux: Host for launching payloads and attacks.
