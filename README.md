@@ -33,7 +33,21 @@ Executed the following Nmap command in Kali to aggressively scan (nmap -A) the W
 Used the following command to see available Metasploit exploits that can be used against the Windows VM.
 
 ![image](https://github.com/user-attachments/assets/be62d66f-eb83-4b86-9826-8fa39c0a978e)
-![image](https://github.com/user-attachments/assets/b87de91b-2634-4727-bd32-3c9c6f2c80cb)
+![image](https://github.com/user-attachments/assets/d746e137-3f71-4dcf-8cca-53f7dcd58f0b)
+
+Ran the following command to generate malware using Meterpeter's reverse TCP payload which is instructed to connect back to the host Kali VM using "lhost" and "lport". The payload is then delivered in the .exe format under a file named Resume.pdf.exe.
+
+![image](https://github.com/user-attachments/assets/2323e4a7-f071-43f1-bde4-9301a840ffe5)
+
+Opened Metasploit to listen in on the port configured in the malware.
+
+![image](https://github.com/user-attachments/assets/e31a0770-e081-410d-bcb8-049a5d163e8d)
+
+Changed the generic settings of the payload to match the malware configured with msfvenom in the earlier steps.
+
+![image](https://github.com/user-attachments/assets/e579efef-7839-4847-ad7e-d3ce482b756c)
+![image](https://github.com/user-attachments/assets/e445a3f7-af46-48e0-bb1a-525b7f7962c7)
+
 
 
 
