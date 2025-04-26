@@ -72,7 +72,7 @@ Downloaded the file on the Windows VM through by inputting the IP of the Kali VM
 ![image](https://github.com/user-attachments/assets/3063b5d3-3385-4ea6-8316-30c7f48ee60f)
 ![image](https://github.com/user-attachments/assets/e332311d-fab2-46a0-8c03-16f98029269a)
 
-Succesfully established a connection with the Kali VM. This information can be seen in Command Prompt by running the command "netstat -anob".
+Successfully established a connection with the Kali VM. This information can be seen in Command Prompt by running the command "netstat -anob".
 
 ![image](https://github.com/user-attachments/assets/6083f40e-9891-4af0-a35e-1319b17b2cf7)
 
