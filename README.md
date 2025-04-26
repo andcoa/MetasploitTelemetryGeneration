@@ -76,6 +76,7 @@ Successfully established a connection with the Kali VM. This information can be 
 
 ![image](https://github.com/user-attachments/assets/6083f40e-9891-4af0-a35e-1319b17b2cf7)
 
+![image](https://github.com/user-attachments/assets/db18c7ab-e43d-4754-9a0c-b4fa9db725ee)
 
 
 
