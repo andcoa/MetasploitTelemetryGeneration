@@ -93,8 +93,20 @@ Configured Splunk to ingest Sysmon logs by copying the input file from the "defa
 
 ![image](https://github.com/user-attachments/assets/b86b61d6-69f2-4c53-bc6c-968e04365989)
 
+Queried the IP of the attacker Kali VM and observed that it had multiple attempts to connect to port 3389 (RDP). This would raise a lot of questions for a SOC team such as what machine is this and who is trying to connect to the Windows VM?
 
+![image](https://github.com/user-attachments/assets/00cdca04-7f02-4f47-8118-f89dba97799e)
 
+Queried the name of the payload and EventCode 1 as it was the value that occured the most in the EventCode field.
 
+![image](https://github.com/user-attachments/assets/c48020a4-12d4-4801-88f3-eaaf2bb71983)
+
+Retrieved the process_guid of one of the events and queried it for further analysis.
+
+![image](https://github.com/user-attachments/assets/0c9a11aa-1a0e-4046-a47a-b09badcbd37b)
+
+The malware file Resume.pdf.exe spawned cmd.exe which eventually ran the commands net user, net localgroup and ipconfig seen in the earlier step on the Kali VM.
+
+![image](https://github.com/user-attachments/assets/0fc8f671-e6b9-4b0f-a2f1-af89f6bc4239)
 
 
