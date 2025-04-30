@@ -105,7 +105,7 @@ Retrieved the process_guid of one of the events and queried it for further analy
 
 ![image](https://github.com/user-attachments/assets/0c9a11aa-1a0e-4046-a47a-b09badcbd37b)
 
-The malware file Resume.pdf.exe spawned cmd.exe which eventually ran the commands net user, net localgroup and ipconfig seen in the earlier step on the Kali VM.
+The malware file Resume.pdf.exe spawned cmd.exe which eventually ran the commands "net user", "net localgroup" and "ipconfig" seen in the earlier step on the Kali VM.
 
 ![image](https://github.com/user-attachments/assets/0fc8f671-e6b9-4b0f-a2f1-af89f6bc4239)
 
