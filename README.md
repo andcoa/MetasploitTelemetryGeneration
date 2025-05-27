@@ -93,7 +93,7 @@ Configured Splunk to ingest Sysmon logs by copying the input file from the "defa
 
 ![image](https://github.com/user-attachments/assets/b86b61d6-69f2-4c53-bc6c-968e04365989)
 
-Queried the IP of the attacker Kali VM and observed that it had multiple attempts to connect to port 3389 (RDP). This would raise a lot of questions for a SOC team such as what machine is this and who is trying to connect to the Windows VM?
+Queried the IP of the attacker Kali VM and observed that it had multiple attempts to connect to port 3389 (RDP). This would raise a lot of questions for a SOC team, such as what machine is this and who is trying to connect to the Windows VM?
 
 ![image](https://github.com/user-attachments/assets/00cdca04-7f02-4f47-8118-f89dba97799e)
 
